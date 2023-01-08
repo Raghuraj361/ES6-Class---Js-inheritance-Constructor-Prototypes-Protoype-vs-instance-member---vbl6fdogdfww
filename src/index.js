@@ -13,6 +13,8 @@ updateURL(url) {
   this.url = url
 }
 let firstAPI = new API('http://api.com/api/hello')
+console. log(s.isSecure()) // false
 let secondAPI = new API('https://api.com/api/hello')
+console. log(s.isSecure()) // true
     
 module.exports = { API }
