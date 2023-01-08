@@ -12,7 +12,7 @@ isSecure() {
 updateURL(url) {
   this.url = url
 }
-let firstAPI = new API('http://api. com/api/hello')
-let secondAPI = new API('https://api. com/api/hello')
+let firstAPI = new API('http://api.com/api/hello')
+let secondAPI = new API('https://api.com/api/hello')
     
 module.exports = { API }
